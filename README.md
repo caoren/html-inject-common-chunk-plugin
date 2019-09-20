@@ -1,7 +1,6 @@
 # html-inject-common-chunk-plugin
 
-A webpack Plugin. It must be used after [html-webpack-plugin] (https://github.com/jantimon/html-webpack-plugin)
-
+A webpack Plugin. It must be used after [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)
 
 <p>
     <a href="https://www.npmjs.com/package/html-inject-common-chunk-plugin"><img src="https://img.shields.io/npm/v/html-inject-common-chunk-plugin.svg?style=flat"></a>
