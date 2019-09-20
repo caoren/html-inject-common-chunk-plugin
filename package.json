@@ -1,0 +1,44 @@
+{
+  "name": "html-inject-common-chunk-plugin",
+  "version": "0.1.0",
+  "description": "Insert public resources into the page",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html",
+    "inject"
+  ],
+  "author": "caoren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caoren/html-inject-common-chunk-plugin/issues"
+  },
+  "homepage": "https://github.com/caoren/html-inject-common-chunk-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caoren/html-inject-common-chunk-plugin.git"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "index.js"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testEnvironment": "node",
+    "testMatch": [
+      "<rootDir>/test/*.js"
+    ]
+  },
+  "dependencies": {
+    "lodash.uniq": "^4.5.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
